@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/img/favicon.png" type="favicon" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>spac-page</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <i class="fa-solid fa-rocket"></i>Space
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link">Home</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#" class="nav__link">Features</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#" class="nav__link">Pricing</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#" class="nav__link">Contact</a>
+            </li>
+          </ul>
+          <a href="#" class="nav__button"> Login </a>
+
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="fa-solid fa-x"></i>
+          </div>
+        </div>
+        <!-- Toggle button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <!-- ==========HOME====== -->
+      <section class="home">
+        <div class="home__container container">
+          <div class="home__content">
+            <h3 class="home__subtitle">NAVIGATE THE UNIVERSE</h3>
+
+            <h1 class="home__title">
+              <span>
+                Start Exploring <br />
+                Infinite Space
+              </span>
+
+              <img src="/img/line.svg" alt="" />
+            </h1>
+
+            <p class="home__description">
+              Start your exploration in space, navigate and discover all the
+              wonders of the universe.
+            </p>
+
+            <a href="#" class="home__button"> Get Started </a>
+          </div>
+
+          <div class="home__images">
+            <img src="/img/points-space.svg" alt="" class="home__points" />
+            <img src="/img/planet.svg" alt="" class="home__planet-2" />
+            <img src="/img/planet.svg" alt="" class="home__planet-1" />
+            <img src="/img/rocket.svg" alt="" class="home__rocket" />
+          </div>
+        </div>
+        <img src="/img/clouds-1.svg" alt="" class="home__cloud-1" />
+        <img src="/img/clouds-2.svg" alt="" class="home__cloud-2" />
+      </section>
+    </main>
+
+    <script src="/gsap.min.js"></script>
+    <script src="/index.js"></script>
+  </body>
+</html>
